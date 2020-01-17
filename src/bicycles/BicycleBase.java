@@ -3,8 +3,12 @@ package bicycles;
 public abstract class BicycleBase implements Bicycle{
     private int speed;
     protected void changeSpeed(int changeValue){
-        if((speed + changeValue) >= 0)
+        if((speed + changeValue) >= 0){
             speed += changeValue;
+        } else {
+            stop();
+        }
+
     }
 
     public void stop(){
