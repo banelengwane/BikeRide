@@ -1,4 +1,4 @@
-package bicycles.modules;
+package bicycles.models;
 
 import bicycles.BicycleBase;
 import bicycles.BicycleType;

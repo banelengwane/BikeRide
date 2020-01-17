@@ -1,4 +1,4 @@
-package bike;
+package bicycle.rides;
 
 import bicycles.*;
 import bicycles.rides.FunRide;

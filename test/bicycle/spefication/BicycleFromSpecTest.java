@@ -1,4 +1,4 @@
-package bike;
+package bicycle.spefication;
 
 import bicycles.Bicycle;
 import bicycles.specification.BicycleFromSpec;

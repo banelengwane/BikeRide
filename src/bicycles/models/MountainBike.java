@@ -1,6 +1,5 @@
-package bicycles.modules;
+package bicycles.models;
 
-import bicycles.Bicycle;
 import bicycles.BicycleBase;
 import bicycles.BicycleType;
 

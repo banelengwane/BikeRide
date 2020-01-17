@@ -1,4 +1,4 @@
-package bike.rides;
+package bicycle.rides;
 
 import bicycles.*;
 import bicycles.rides.BikeRide;
@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BikeRideTest {
+public class BikeRideOneTest {
     @Test
     public void shouldTestASingleMountainBikeRide(){
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);

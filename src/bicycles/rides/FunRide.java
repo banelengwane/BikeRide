@@ -1,4 +1,7 @@
-package bicycles;
+package bicycles.rides;
+
+import bicycles.Bicycle;
+import bicycles.BicycleType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +18,8 @@ public class FunRide {
 
     public int getCountForType(BicycleType bikeType){
         int count = 0;
-        for(int i = 0; i < bicycles.size(); i++){
-            if(bicycles.get(i).getBicycleType() == bikeType){
+        for(Bicycle bicycle: bicycles) {
+            if(bicycle.getBicycleType() == bikeType) {
                 count++;
             }
         }
@@ -28,9 +31,9 @@ public class FunRide {
         return bicycles.size();
     }
 
-    public void bicycleSpaces(Bicycle bi){
+    public void bicycleSpaces(Bicycle bicycle){
         if(maxBikes > bicycles.size()){
-            bicycles.add(bi);
+            bicycles.add(bicycle);
         } else {
             System.out.println("There are no more spaces available for Bikes");
         }
