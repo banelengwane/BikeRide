@@ -4,9 +4,11 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/test">
       <sourceFolder url="file://$MODULE_DIR$/test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.junit.jupiter:junit-jupiter-api:5.3.2" level="project" />
+    <orderEntry type="module" module-name="BikeRide" scope="TEST" />
   </component>
 </module>
